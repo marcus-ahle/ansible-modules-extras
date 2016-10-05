@@ -132,6 +132,7 @@ EXAMPLES='''
 # Create a 5 minute maintenance window for service FOO123, using a token
 - pagerduty: name=companyabc
              token=xxxxxxxxxxxxxx
+             requester_id=xxxxxx
              hours=0
              minutes=5
              state=running
